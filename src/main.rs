@@ -9,9 +9,6 @@ fn main() {
     // Generate a random number between 1 and 100
     let secret_number = rand::thread_rng().gen_range(1, 101);
 
-    // Initialize the number of attempts
-    let mut attempts = 0;
-
     loop {
         println!("Please enter your guess:");
 
